@@ -17,6 +17,7 @@ namespace ContosoPizza.Pages
 
         public void OnGet()
         {
+            PizzaList = _service.GetPizzas();
         }
     }
 }
